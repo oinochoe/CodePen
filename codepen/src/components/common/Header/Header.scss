@@ -3,12 +3,12 @@
 .header {
   background: $oc-blue-6;
   .header-content {
-    height: 5rem;
+    height: $headerHeight;
     width: 1400px;
     margin: 0 auto; // 중앙 정렬
     padding-left: 3rem;
     padding-right: 3rem;
-    
+
     // 내부 아이템 세로 중앙 정렬
     display: flex;
     align-items: center;

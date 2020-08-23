@@ -2,8 +2,8 @@
 
 .footer {
   background: $oc-gray-7;
-  height: 10rem;
-  
+  height: $footerHeight;
+
   // 내부 내용 중앙 정렬
   display: flex;
   align-items: center;
