@@ -1,15 +1,15 @@
 @import 'utils';
 
 .button {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  margin:0;
+  padding:0.5rem 0.8rem;
+  border:0;
+  outline:0;
   font-weight: 600;
   font-size: 0.9rem;
   color: white;
   cursor: pointer;
-  user-select: none; // 드래그 방지
+  user-select: none;
   display:inline-flex;
 
   // default 파란색 버튼
