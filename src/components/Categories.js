@@ -8,28 +8,28 @@ const categories = [
         text: '전체보기',
     },
     {
-        name: 'business',
-        text: '비즈니스',
+        name: 'background',
+        text: '백그라운드효과',
     },
     {
-        name: 'entertainment',
-        text: '엔터테인먼트',
+        name: 'mouseover',
+        text: '마우스오버효과',
     },
     {
-        name: 'health',
-        text: '건강',
+        name: 'scroll',
+        text: '스크롤효과',
     },
     {
-        name: 'science',
-        text: '과학',
+        name: 'sidebar',
+        text: '사이드바효과',
     },
     {
-        name: 'sports',
-        text: '스포츠',
+        name: 'text',
+        text: '텍스트효과',
     },
     {
-        name: 'technology',
-        text: '기술',
+        name: 'etc',
+        text: '기타효과',
     },
 ];
 
@@ -70,7 +70,7 @@ const Category = styled(NavLink)`
 const Categories = () => {
     return (
         <CategoriesBlock>
-            {categories.map(c => (
+            {categories.map((c) => (
                 <Category
                     key={c.name}
                     activeClassName="active"

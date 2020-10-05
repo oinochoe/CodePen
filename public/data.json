@@ -1,0 +1,8 @@
+{
+    "articles": [{
+        "title": "모르겠지만 뒤틀림 효과다..",
+        "description": "뒤틀림 효과다 뒤틀림효과 ",
+        "url": "http://127.0.0.1:5500/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
+        "urlToImage": "http://127.0.0.1:5500/animation/dist/01_뒤틀림효과/img.jpg"
+    }]
+}
