@@ -22,7 +22,7 @@ const NewsListBlock = styled.div`
 const NewsList = ({ category }) => {
     const [loading, response, error] = usePromise(() => {
         return axios
-            .get(`${category}.json`, {
+            .get(`http://localhost:5000/background`, {
                 timeout: 1000,
             })
             .then(function (response) {
