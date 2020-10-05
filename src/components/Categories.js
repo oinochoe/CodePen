@@ -50,15 +50,15 @@ const Category = styled(NavLink)`
     box-sizing: border-box;
 
     &:hover {
-        color: #495057;
+        color: #0c3d6e;
     }
 
     &.active {
         font-weight: 600;
-        border-bottom: 2px solid #22b8cf;
-        color: #22b8cf;
+        border-bottom: 2px solid #0c3d6e;
+        color: #0c3d6e;
         &:hover {
-            color: #3bc9db;
+            color: #0c3d6e;
         }
     }
 `;

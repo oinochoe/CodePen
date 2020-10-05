@@ -14,6 +14,11 @@ const NewsItemBlock = styled.div`
             width: 160px;
             height: 100px;
             object-fit: cover;
+            -webkit-transition: filter 0.3s;
+            transition: filter 0.3s;
+            &:hover {
+                filter: brightness(1.12);
+            }
             @media screen and (max-width: 768px) {
                 width: 100%;
                 margin-bottom: 0.5rem;
@@ -21,16 +26,22 @@ const NewsItemBlock = styled.div`
         }
     }
     .contents {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         h2 {
             margin: 0;
             a {
                 color: black;
+                text-decoration: none;
+                &:hover {
+                    color: #0c3d6e;
+                }
             }
         }
         p {
             margin: 0;
-            line-height: 1.5;
-            margin-top: 0.5rem;
+            line-height: 1.4;
             white-space: normal;
         }
     }

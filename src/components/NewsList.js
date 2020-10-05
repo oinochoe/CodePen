@@ -21,9 +21,8 @@ const NewsListBlock = styled.div`
 
 const NewsList = ({ category }) => {
     const [loading, response, error] = usePromise(() => {
-        const query = category === 'all' ? '' : `&category=${category}`;
         return axios
-            .get(`data.json?${query}`, {
+            .get(`${category}.json`, {
                 timeout: 1000,
             })
             .then(function (response) {
