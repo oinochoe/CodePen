@@ -4,10 +4,6 @@ import { NavLink } from 'react-router-dom';
 
 const categories = [
     {
-        name: 'all',
-        text: '전체보기',
-    },
-    {
         name: 'background',
         text: '백그라운드효과',
     },
@@ -74,9 +70,9 @@ const Categories = () => {
                 <Category
                     key={c.name}
                     activeClassName="active"
-                    exact={c.name === 'all'}
+                    exact={c.name === 'background'}
                     to={
-                        c.name === 'all'
+                        c.name === 'background'
                             ? '/News_Feed/'
                             : `/News_Feed/${c.name}`
                     }

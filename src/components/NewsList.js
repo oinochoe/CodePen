@@ -23,7 +23,7 @@ const NewsList = ({ category }) => {
     const [loading, response, error] = usePromise(() => {
         const query = category === 'all' ? '' : `&category=${category}`;
         return axios
-            .get(`data.json`, {
+            .get(`data.json?${query}`, {
                 timeout: 1000,
             })
             .then(function (response) {
