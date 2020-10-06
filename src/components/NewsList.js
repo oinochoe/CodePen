@@ -21,16 +21,21 @@ const NewsListBlock = styled.div`
 
 const NewsList = ({ category }) => {
     const [loading, response, error] = usePromise(() => {
-        return axios
-            .get(`http://localhost:5000/background`, {
+        return (
+            axios
+                /* .get(`mouseover.json`, {
                 timeout: 1000,
-            })
-            .then(function (response) {
-                return response;
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
+            }) */
+                .get(`mouseover.json`, {
+                    timeout: 1000,
+                })
+                .then(function (response) {
+                    return response;
+                })
+                .catch(function (error) {
+                    console.log(error);
+                })
+        );
     }, [category]);
 
     // 대기중일때
