@@ -8,7 +8,10 @@
         "@testing-library/user-event": "^7.1.2",
         "axios": "^0.19.1",
         "axios-jsonp-pro": "^1.1.8",
+        "cross-env": "^7.0.2",
         "directory-structure-json": "^1.0.0",
+        "dotenv": "^8.2.0",
+        "pm2": "^4.5.0",
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
         "react-router-dom": "^5.1.2",
@@ -39,7 +42,7 @@
             "last 1 safari version"
         ]
     },
-    "homepage": "https://oinochoe.github.io/News_Feed",
+    "homepage": "https://oinochoe.github.io/List_Feed",
     "devDependencies": {
         "gh-pages": "^2.2.0",
         "json-server": "^0.16.2"

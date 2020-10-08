@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import NewsItem from './NewsItem';
+import Item from './Item';
 import axios from 'axios';
 import usePromise from '../lib/usePromise';
 
@@ -21,21 +21,9 @@ const NewsListBlock = styled.div`
 
 const NewsList = ({ category }) => {
     const [loading, response, error] = usePromise(() => {
-        return (
-            axios
-                /* .get(`mouseover.json`, {
-                timeout: 1000,
-            }) */
-                .get(`mouseover.json`, {
-                    timeout: 1000,
-                })
-                .then(function (response) {
-                    return response;
-                })
-                .catch(function (error) {
-                    console.log(error);
-                })
-        );
+        return axios.get(`http://localhost:3001/${category}`, {
+            timeout: 1000,
+        });
     }, [category]);
 
     // 대기중일때
@@ -56,7 +44,7 @@ const NewsList = ({ category }) => {
     return (
         <NewsListBlock>
             {articles.map((article) => (
-                <NewsItem key={article.url} article={article} />
+                <Item key={article.url} article={article} />
             ))}
         </NewsListBlock>
     );

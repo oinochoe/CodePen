@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const NewsItemBlock = styled.div`
+const ItemBlock = styled.div`
     display: flex;
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -50,27 +50,27 @@ const NewsItemBlock = styled.div`
     }
 `;
 
-const NewsItem = ({ article }) => {
+const Item = ({ article }) => {
     const { title, description, url, urlToImage } = article;
     return (
-        <NewsItemBlock>
+        <ItemBlock>
             {urlToImage && (
                 <div className="thumbnail">
-                    <a href={url} target="_blank" rel="noopener noreferrer">
+                    <a href={url} rel="noopener noreferrer">
                         <img src={urlToImage} alt="thumbnail" />
                     </a>
                 </div>
             )}
             <div className="contents">
                 <h2>
-                    <a href={url} target="_blank" rel="noopener noreferrer">
+                    <a href={url} rel="noopener noreferrer">
                         {title}
                     </a>
                 </h2>
                 <p>{description}</p>
             </div>
-        </NewsItemBlock>
+        </ItemBlock>
     );
 };
 
-export default NewsItem;
+export default Item;

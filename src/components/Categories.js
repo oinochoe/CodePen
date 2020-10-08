@@ -73,8 +73,8 @@ const Categories = () => {
                     exact={c.name === 'background'}
                     to={
                         c.name === 'background'
-                            ? '/News_Feed/'
-                            : `/News_Feed/${c.name}`
+                            ? '/List_Feed/'
+                            : `/List_Feed/${c.name}`
                     }
                 >
                     {c.text}

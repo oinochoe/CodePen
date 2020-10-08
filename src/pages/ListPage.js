@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from '../components/Header';
 import Categories from '../components/Categories';
-import NewsList from '../components/NewsList';
+import List from '../components/List';
 
-export const NewsPage = ({ match }) => {
+export const ListPage = ({ match }) => {
     // 카테고리가 선택되지 않았으면 기본값 all로 사용
     const category = match.params.category || 'background';
 
@@ -11,9 +11,9 @@ export const NewsPage = ({ match }) => {
         <>
             <Header />
             <Categories />
-            <NewsList category={category} />
+            <List category={category} />
         </>
     );
 };
 
-export default NewsPage;
+export default ListPage;

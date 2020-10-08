@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import NewsPage from './pages/NewsPage';
+import ListPage from './pages/ListPage';
 
 const App = () => {
     return (
         <BrowserRouter>
-            <Route path="/News_Feed/:category?" component={NewsPage} />
-            {/* <Route path="/animation/" component={NewsArticle} /> */}
+            <Route path="/List_Feed/:category?" component={ListPage} />
+            {/* <Route path="/List_Feed/animation" component={ViewPage} /> */}
         </BrowserRouter>
     );
 };
