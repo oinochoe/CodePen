@@ -10,6 +10,7 @@
         "axios-jsonp-pro": "^1.1.8",
         "cross-env": "^7.0.2",
         "directory-structure-json": "^1.0.0",
+        "directory-tree": "^2.2.5",
         "dotenv": "^8.2.0",
         "pm2": "^4.5.0",
         "react": "^16.12.0",
