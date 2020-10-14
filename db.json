@@ -16,15 +16,20 @@
     ]
   },
   "mouseover": {
-    "Year": "2003",
-    "Month": "1",
-    "Day": "1",
-    "_email": "SLJ123123123123s12131231231231212312312312312311123123122213123123312323321231231231123123123123123123123123123123123123112331123233SDJF@NAVER.COM",
-    "_birthMonth": "01",
-    "_birthDay": "01",
-    "_birthYear": "2003",
-    "_isAlramAgree": "true",
-    "_isAgree": "true"
+    "articles": [
+      {
+        "title": "뒤틀림효과",
+        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
+        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
+        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
+      },
+      {
+        "title": "뒤틀림효과",
+        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
+        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
+        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
+      }
+    ]
   },
   "scroll": {
     "articles": [
