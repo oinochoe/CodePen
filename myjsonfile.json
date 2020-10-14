@@ -1,27 +1,25 @@
-[
-    {
+{
+    "0": {
+        "name": "dragon",
+        "type": "folder",
+        "articles": [
+            {
+                "type": "file",
+                "name": "readme.md"
+            }
+        ]
+    },
+    "1": {
         "name": "dist",
         "type": "folder",
-        "children": [
+        "articles": [
             {
                 "name": "01_뒤틀림효과",
                 "type": "folder",
-                "children": [
+                "articles": [
                     {
                         "type": "file",
                         "name": "img.jpg"
-                    },
-                    {
-                        "type": "file",
-                        "name": "img2.jpg"
-                    },
-                    {
-                        "type": "file",
-                        "name": "index.html"
-                    },
-                    {
-                        "type": "file",
-                        "name": "readme.md"
                     },
                     {
                         "type": "file",
@@ -30,5 +28,25 @@
                 ]
             }
         ]
+    },
+    "2": {
+        "name": "dkdi",
+        "type": "folder",
+        "articles": [
+            {
+                "type": "file",
+                "name": "img2.jpg"
+            },
+            {
+                "name": "dragon",
+                "type": "folder",
+                "articles": [
+                    {
+                        "type": "file",
+                        "name": "index.html"
+                    }
+                ]
+            }
+        ]
     }
-]
+}

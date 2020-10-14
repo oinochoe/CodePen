@@ -23,7 +23,7 @@ var diretoryTreeToObj = function (dir, done) {
             return done(null, {
                 name: path.basename(dir),
                 type: 'folder',
-                children: results,
+                articles: results,
             });
 
         list.forEach(function (file) {
@@ -34,7 +34,7 @@ var diretoryTreeToObj = function (dir, done) {
                         results.push({
                             name: path.basename(file),
                             type: 'folder',
-                            children: res,
+                            articles: res,
                         });
                         if (!--pending) done(null, results);
                     });
@@ -55,6 +55,12 @@ var dirTree = './animation';
 diretoryTreeToObj(dirTree, function (err, res) {
     if (err) console.error(err);
 
-    console.log(JSON.stringify(res));
-    fs.writeFileSync('myjsonfile.json', JSON.stringify(res));
+    console.log(JSON.stringify(toObject(res)));
+    fs.writeFileSync('myjsonfile.json', JSON.stringify(toObject(res)));
 });
+function toObject(arr) {
+    var rv = {};
+    for (var i = 0; i < arr.length; ++i)
+        if (arr[i] !== undefined) rv[i] = arr[i];
+    return rv;
+}
