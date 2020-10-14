@@ -55,12 +55,14 @@ var dirTree = './animation';
 diretoryTreeToObj(dirTree, function (err, res) {
     if (err) console.error(err);
 
-    console.log(JSON.stringify(toObject(res)));
-    fs.writeFileSync('myjsonfile.json', JSON.stringify(toObject(res)));
+    console.log(JSON.stringify(arrayToObject(res, 'name')));
+    fs.writeFileSync(
+        'myjsonfile.json',
+        JSON.stringify(arrayToObject(res, 'name')),
+    );
 });
-function toObject(arr) {
-    var rv = {};
-    for (var i = 0; i < arr.length; ++i)
-        if (arr[i] !== undefined) rv[i] = arr[i];
-    return rv;
-}
+const arrayToObject = (array, keyField) =>
+    array.reduce((obj, item) => {
+        obj[item[keyField]] = item;
+        return obj;
+    }, {});

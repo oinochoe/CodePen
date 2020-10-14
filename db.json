@@ -1,5 +1,5 @@
 {
-    "0": {
+    "dragon": {
         "name": "dragon",
         "type": "folder",
         "articles": [
@@ -9,7 +9,7 @@
             }
         ]
     },
-    "1": {
+    "dist": {
         "name": "dist",
         "type": "folder",
         "articles": [
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "2": {
+    "dkdi": {
         "name": "dkdi",
         "type": "folder",
         "articles": [
