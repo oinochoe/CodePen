@@ -32,16 +32,19 @@ var diretoryTreeToObj = function (dir, done) {
                 if (stat && stat.isDirectory()) {
                     diretoryTreeToObj(file, function (err, res) {
                         results.push({
-                            name: path.basename(file),
                             type: 'folder',
+                            title: path.basename(file),
                             articles: res,
+                            description: '안녕하세요',
+                            url: 'http://',
+                            urlToImage:'http://www.placeholderit.png'
                         });
                         if (!--pending) done(null, results);
                     });
                 } else {
                     results.push({
                         type: 'file',
-                        name: path.basename(file),
+                        title: path.basename(file),
                     });
                     if (!--pending) done(null, results);
                 }
@@ -55,10 +58,10 @@ var dirTree = './animation';
 diretoryTreeToObj(dirTree, function (err, res) {
     if (err) console.error(err);
 
-    console.log(JSON.stringify(arrayToObject(res, 'name')));
+    console.log(JSON.stringify(arrayToObject(res, 'title')));
     fs.writeFileSync(
         'myjsonfile.json',
-        JSON.stringify(arrayToObject(res, 'name')),
+        JSON.stringify(arrayToObject(res, 'title')),
     );
 });
 const arrayToObject = (array, keyField) =>

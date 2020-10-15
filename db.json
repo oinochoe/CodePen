@@ -1,151 +1,529 @@
 {
-<<<<<<< HEAD
-  "background": {
-    "articles": [
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      },
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      }
-    ]
-  },
-  "mouseover": {
-    "articles": [
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      },
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      }
-    ]
-  },
-  "scroll": {
-    "articles": [
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      },
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      }
-    ]
-  },
-  "sidebar": {
-    "articles": [
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      },
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      }
-    ]
-  },
-  "text": {
-    "articles": [
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      },
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      }
-    ]
-  },
-  "etc": {
-    "articles": [
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      },
-      {
-        "title": "뒤틀림효과",
-        "description": "마우스 오버시에 3D 효과를 나타냅니다.",
-        "url": "http://127.0.0.1:3000/animation/dist/01_%EB%92%A4%ED%8B%80%EB%A6%BC%ED%9A%A8%EA%B3%BC/index.html",
-        "urlToImage": "http://127.0.0.1:3000/animation/dist/01_뒤틀림효과/img.jpg"
-      }
-    ]
-  }
-=======
-    "dragon": {
-        "name": "dragon",
+    "sidebar": {
         "type": "folder",
-        "articles": [
-            {
-                "type": "file",
-                "name": "readme.md"
-            }
-        ]
+        "title": "sidebar",
+        "articles": {
+            "name": "sidebar",
+            "type": "folder",
+            "articles": []
+        },
+        "description": "안녕하세요",
+        "url": "http://",
+        "urlToImage": "http://www.placeholderit.png"
     },
-    "dist": {
-        "name": "dist",
+    "text": {
         "type": "folder",
+        "title": "text",
         "articles": [
             {
-                "name": "01_뒤틀림효과",
                 "type": "folder",
+                "title": "텍스트전환효과",
                 "articles": [
                     {
                         "type": "file",
-                        "name": "img.jpg"
+                        "title": "Readme.md"
                     },
                     {
                         "type": "file",
-                        "name": "style.css"
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
                     }
-                ]
-            }
-        ]
-    },
-    "dkdi": {
-        "name": "dkdi",
-        "type": "folder",
-        "articles": [
-            {
-                "type": "file",
-                "name": "img2.jpg"
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
             },
             {
-                "name": "dragon",
                 "type": "folder",
+                "title": "텍스트타이핑효과",
                 "articles": [
                     {
                         "type": "file",
-                        "name": "index.html"
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
                     }
-                ]
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
             }
-        ]
+        ],
+        "description": "안녕하세요",
+        "url": "http://",
+        "urlToImage": "http://www.placeholderit.png"
+    },
+    "etc": {
+        "type": "folder",
+        "title": "etc",
+        "articles": [
+            {
+                "type": "folder",
+                "title": "로딩애니메이션",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            },
+            {
+                "type": "folder",
+                "title": "원형데이터",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style2.css"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            },
+            {
+                "type": "folder",
+                "title": "reflection_반사효과",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "style.css"
+                    },
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "img.jpg"
+                            },
+                            {
+                                "type": "file",
+                                "title": "logo.png"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            }
+        ],
+        "description": "안녕하세요",
+        "url": "http://",
+        "urlToImage": "http://www.placeholderit.png"
+    },
+    "background": {
+        "type": "folder",
+        "title": "background",
+        "articles": [
+            {
+                "type": "folder",
+                "title": "반딧불효과",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "firefly.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.js"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            },
+            {
+                "type": "folder",
+                "title": "svg구름효과",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            },
+            {
+                "type": "folder",
+                "title": "배경이미지겹칩(이동효과)",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "tumblr_p7n8kqHMuD1uy4lhuo1_540.png"
+                            },
+                            {
+                                "type": "file",
+                                "title": "tumblr_p7n8kqHMuD1uy4lhuo2_1280.png"
+                            },
+                            {
+                                "type": "file",
+                                "title": "tumblr_p7n8on19cV1uy4lhuo1_1280.png"
+                            },
+                            {
+                                "type": "file",
+                                "title": "tumblr_p7n8kqHMuD1uy4lhuo3_1280.png"
+                            },
+                            {
+                                "type": "file",
+                                "title": "tumblr_p7n908E1Jb1uy4lhuo1_1280.png"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            },
+            {
+                "type": "folder",
+                "title": "바닷속효과",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
+                    },
+                    {
+                        "type": "file",
+                        "title": "water.html"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "bg_light.jpg"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "js",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "jquery-3.4.1.min.js"
+                            },
+                            {
+                                "type": "file",
+                                "title": "jquery.ripples.js"
+                            },
+                            {
+                                "type": "file",
+                                "title": "style.js"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            }
+        ],
+        "description": "안녕하세요",
+        "url": "http://",
+        "urlToImage": "http://www.placeholderit.png"
+    },
+    "mouseover": {
+        "type": "folder",
+        "title": "mouseover",
+        "articles": [
+            {
+                "type": "folder",
+                "title": "DISTORTION효과(뒤틀림효과)",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "css",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "style.css"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "img.jpg"
+                            },
+                            {
+                                "type": "file",
+                                "title": "img_2.jpg"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            },
+            {
+                "type": "folder",
+                "title": "포커스오버효과",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "img.jpg"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "css",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "style.css"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            },
+            {
+                "type": "folder",
+                "title": "입체적인오버효과",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "index2.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "img.png"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "css",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "style.css"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            }
+        ],
+        "description": "안녕하세요",
+        "url": "http://",
+        "urlToImage": "http://www.placeholderit.png"
+    },
+    "scroll": {
+        "type": "folder",
+        "title": "scroll",
+        "articles": [
+            {
+                "type": "folder",
+                "title": "마우스스크롤 레이지로딩",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "css",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "style.css"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "image.jpg"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "js",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "lazyload.js"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://",
+                        "urlToImage": "http://www.placeholderit.png"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://",
+                "urlToImage": "http://www.placeholderit.png"
+            }
+        ],
+        "description": "안녕하세요",
+        "url": "http://",
+        "urlToImage": "http://www.placeholderit.png"
     }
->>>>>>> edb98ef25b78ad7e115e0cc3881300a6bc233444
 }

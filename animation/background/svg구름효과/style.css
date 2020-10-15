@@ -1,0 +1,23 @@
+@charset "utf-8";
+@media screen and (min-width:1025px){html{font-size:16px}}@media screen and (max-width:1024px){html{font-size:23.98px}}@media screen and (max-width:768px){html{font-size:23.98px}}@media screen and (max-width:750px){html{font-size:23.98px}}@media screen and (max-width:740px){html{font-size:23.66px}}@media screen and (max-width:730px){html{font-size:23.33px}}@media screen and (max-width:720px){html{font-size:23.01px}}@media screen and (max-width:710px){html{font-size:22.69px}}@media screen and (max-width:700px){html{font-size:22.36px}}@media screen and (max-width:690px){html{font-size:22.04px}}@media screen and (max-width:680px){html{font-size:21.72px}}@media screen and (max-width:670px){html{font-size:21.39px}}@media screen and (max-width:660px){html{font-size:21.07px}}@media screen and (max-width:650px){html{font-size:20.75px}}@media screen and (max-width:640px){html{font-size:20.42px}}@media screen and (max-width:630px){html{font-size:20.1px}}@media screen and (max-width:620px){html{font-size:19.77px}}@media screen and (max-width:610px){html{font-size:19.45px}}@media screen and (max-width:600px){html{font-size:19.13px}}@media screen and (max-width:590px){html{font-size:18.8px}}@media screen and (max-width:580px){html{font-size:18.48px}}@media screen and (max-width:570px){html{font-size:18.17px}}@media screen and (max-width:560px){html{font-size:17.84px}}@media screen and (max-width:550px){html{font-size:17.53px}}@media screen and (max-width:540px){html{font-size:17.21px}}@media screen and (max-width:530px){html{font-size:16.89px}}@media screen and (max-width:520px){html{font-size:16.57px}}@media screen and (max-width:510px){html{font-size:16.25px}}@media screen and (max-width:500px){html{font-size:15.93px}}@media screen and (max-width:490px){html{font-size:15.62px}}@media screen and (max-width:480px){html{font-size:15.29px}}@media screen and (max-width:470px){html{font-size:14.98px}}@media screen and (max-width:460px){html{font-size:14.66px}}@media screen and (max-width:450px){html{font-size:14.34px}}@media screen and (max-width:440px){html{font-size:14.02px}}@media screen and (max-width:430px){html{font-size:13.71px}}@media screen and (max-width:420px){html{font-size:13.38px}}@media screen and (max-width:410px){html{font-size:13.07px}}@media screen and (max-width:400px){html{font-size:12.75px}}@media screen and (max-width:390px){html{font-size:12.43px}}@media screen and (max-width:380px){html{font-size:12.11px}}@media screen and (max-width:370px){html{font-size:11.79px}}@media screen and (max-width:360px){html{font-size:11.47px}}@media screen and (max-width:350px){html{font-size:11.16px}}@media screen and (max-width:340px){html{font-size:10.83px}}@media screen and (max-width:330px){html{font-size:10.52px}}@media screen and (max-width:320px){html{font-size:10.2px}}
+
+/* TODO : universal selector only */
+* , *:before, *:after { box-sizing: border-box; } 
+/* reset */
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: radial-gradient(ellipse at center, #999, #000); overflow: hidden; }
+
+* , *:before, *:after { box-sizing: border-box; } 
+.eclipse { width: 10rem; height: 10rem; border-radius: 50%; background-color: #000; box-shadow: 0px 0px 1rem 0.5rem rgba(255, 240, 215, 0.75); } 
+.group { position: absolute; width: 100vw; height: 100vh; opacity: 0; animation: float_clouds 60s linear infinite; animation-delay: -1s; } 
+.group.two { left: -100%; } 
+.cloud { border-radius: 50%; position: absolute; top: -50vh; } 
+.cloud.one { width: 90%; height: 10%; filter: url(#filter-one); box-shadow: 0 60vh 55px 20px rgba(0, 0, 0, 0.8); left: 10%; } 
+.cloud.two { width: 40%; height: 20%; filter: url(#filter-two); box-shadow: 0 80vh 60px 0px rgba(0, 0, 0, 0.6); left: 50%; } 
+.cloud.three { width: 40%; height: 10%; filter: url(#filter-three); box-shadow: 0 100vh 70px 20px rgba(0, 0, 0, 0.7); left: 0%; } 
+.cloud.four { width: 70%; height: 15%; filter: url(#filter-four); box-shadow: 0 130vh 80px 10px rgba(0, 0, 0, 0.5); left: 50%; } 
+svg { position: absolute; } 
+@keyframes float_clouds { 
+ 0% { opacity: 0; transform: translateX(0%); } 
+ 1.67%, 98.33% { opacity: 1; } 
+ 100% { opacity: 0; transform: translateX(100%); } 
+ }
