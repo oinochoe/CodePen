@@ -23,7 +23,7 @@ var diretoryTreeToObj = function (dir, done) {
             return done(null, {
                 name: path.basename(dir),
                 type: 'folder',
-                articles: results,
+                articles: results
             });
 
         list.forEach(function (file) {
@@ -34,10 +34,10 @@ var diretoryTreeToObj = function (dir, done) {
                         results.push({
                             type: 'folder',
                             title: path.basename(file),
-                            articles: res,
+                            articles: (res.articles === undefined) ? res : [{title:'없음',description:'없음',url:'없음',thumbnail:'없음'}],
                             description: '안녕하세요',
-                            url: 'http://',
-                            urlToImage:'http://www.placeholderit.png'
+                            url: 'http://www.kr.playblackdesert.com',
+                            thumbnail:'https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg'
                         });
                         if (!--pending) done(null, results);
                     });
@@ -58,7 +58,6 @@ var dirTree = './animation';
 diretoryTreeToObj(dirTree, function (err, res) {
     if (err) console.error(err);
 
-    console.log(JSON.stringify(arrayToObject(res, 'title')));
     fs.writeFileSync(
         'myjsonfile.json',
         JSON.stringify(arrayToObject(res, 'title')),

@@ -2,14 +2,17 @@
     "sidebar": {
         "type": "folder",
         "title": "sidebar",
-        "articles": {
-            "name": "sidebar",
-            "type": "folder",
-            "articles": []
-        },
+        "articles": [
+            {
+                "title": "없음",
+                "description": "없음",
+                "url": "없음",
+                "thumbnail": "없음"
+            }
+        ],
         "description": "안녕하세요",
-        "url": "http://",
-        "urlToImage": "http://www.placeholderit.png"
+        "url": "http://www.kr.playblackdesert.com",
+        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
     },
     "text": {
         "type": "folder",
@@ -21,11 +24,11 @@
                 "articles": [
                     {
                         "type": "file",
-                        "title": "Readme.md"
+                        "title": "index.html"
                     },
                     {
                         "type": "file",
-                        "title": "index.html"
+                        "title": "Readme.md"
                     },
                     {
                         "type": "file",
@@ -33,8 +36,8 @@
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             },
             {
                 "type": "folder",
@@ -42,11 +45,11 @@
                 "articles": [
                     {
                         "type": "file",
-                        "title": "index.html"
+                        "title": "Readme.md"
                     },
                     {
                         "type": "file",
-                        "title": "Readme.md"
+                        "title": "index.html"
                     },
                     {
                         "type": "file",
@@ -54,13 +57,13 @@
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             }
         ],
         "description": "안녕하세요",
-        "url": "http://",
-        "urlToImage": "http://www.placeholderit.png"
+        "url": "http://www.kr.playblackdesert.com",
+        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
     },
     "etc": {
         "type": "folder",
@@ -76,16 +79,16 @@
                     },
                     {
                         "type": "file",
-                        "title": "style.css"
+                        "title": "Readme.md"
                     },
                     {
                         "type": "file",
-                        "title": "Readme.md"
+                        "title": "style.css"
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             },
             {
                 "type": "folder",
@@ -93,11 +96,11 @@
                 "articles": [
                     {
                         "type": "file",
-                        "title": "index.html"
+                        "title": "Readme.md"
                     },
                     {
                         "type": "file",
-                        "title": "Readme.md"
+                        "title": "index.html"
                     },
                     {
                         "type": "file",
@@ -109,8 +112,8 @@
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             },
             {
                 "type": "folder",
@@ -118,15 +121,15 @@
                 "articles": [
                     {
                         "type": "file",
-                        "title": "style.css"
-                    },
-                    {
-                        "type": "file",
                         "title": "index.html"
                     },
                     {
                         "type": "file",
                         "title": "Readme.md"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
                     },
                     {
                         "type": "folder",
@@ -142,18 +145,18 @@
                             }
                         ],
                         "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             }
         ],
         "description": "안녕하세요",
-        "url": "http://",
-        "urlToImage": "http://www.placeholderit.png"
+        "url": "http://www.kr.playblackdesert.com",
+        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
     },
     "background": {
         "type": "folder",
@@ -173,16 +176,16 @@
                     },
                     {
                         "type": "file",
-                        "title": "style.css"
+                        "title": "style.js"
                     },
                     {
                         "type": "file",
-                        "title": "style.js"
+                        "title": "style.css"
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             },
             {
                 "type": "folder",
@@ -190,8 +193,25 @@
                 "articles": [
                     {
                         "type": "file",
-                        "title": "index.html"
+                        "title": "Readme.md"
                     },
+                    {
+                        "type": "file",
+                        "title": "style.css"
+                    },
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
+            },
+            {
+                "type": "folder",
+                "title": "바닷속효과",
+                "articles": [
                     {
                         "type": "file",
                         "title": "Readme.md"
@@ -199,11 +219,49 @@
                     {
                         "type": "file",
                         "title": "style.css"
+                    },
+                    {
+                        "type": "file",
+                        "title": "water.html"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "bg_light.jpg"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "js",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "jquery-3.4.1.min.js"
+                            },
+                            {
+                                "type": "file",
+                                "title": "style.js"
+                            },
+                            {
+                                "type": "file",
+                                "title": "jquery.ripples.js"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             },
             {
                 "type": "folder",
@@ -235,11 +293,11 @@
                             },
                             {
                                 "type": "file",
-                                "title": "tumblr_p7n8on19cV1uy4lhuo1_1280.png"
+                                "title": "tumblr_p7n8kqHMuD1uy4lhuo3_1280.png"
                             },
                             {
                                 "type": "file",
-                                "title": "tumblr_p7n8kqHMuD1uy4lhuo3_1280.png"
+                                "title": "tumblr_p7n8on19cV1uy4lhuo1_1280.png"
                             },
                             {
                                 "type": "file",
@@ -247,125 +305,23 @@
                             }
                         ],
                         "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
-            },
-            {
-                "type": "folder",
-                "title": "바닷속효과",
-                "articles": [
-                    {
-                        "type": "file",
-                        "title": "Readme.md"
-                    },
-                    {
-                        "type": "file",
-                        "title": "style.css"
-                    },
-                    {
-                        "type": "file",
-                        "title": "water.html"
-                    },
-                    {
-                        "type": "folder",
-                        "title": "img",
-                        "articles": [
-                            {
-                                "type": "file",
-                                "title": "bg_light.jpg"
-                            }
-                        ],
-                        "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
-                    },
-                    {
-                        "type": "folder",
-                        "title": "js",
-                        "articles": [
-                            {
-                                "type": "file",
-                                "title": "jquery-3.4.1.min.js"
-                            },
-                            {
-                                "type": "file",
-                                "title": "jquery.ripples.js"
-                            },
-                            {
-                                "type": "file",
-                                "title": "style.js"
-                            }
-                        ],
-                        "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
-                    }
-                ],
-                "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             }
         ],
         "description": "안녕하세요",
-        "url": "http://",
-        "urlToImage": "http://www.placeholderit.png"
+        "url": "http://www.kr.playblackdesert.com",
+        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
     },
     "mouseover": {
         "type": "folder",
         "title": "mouseover",
         "articles": [
-            {
-                "type": "folder",
-                "title": "DISTORTION효과(뒤틀림효과)",
-                "articles": [
-                    {
-                        "type": "file",
-                        "title": "index.html"
-                    },
-                    {
-                        "type": "file",
-                        "title": "Readme.md"
-                    },
-                    {
-                        "type": "folder",
-                        "title": "css",
-                        "articles": [
-                            {
-                                "type": "file",
-                                "title": "style.css"
-                            }
-                        ],
-                        "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
-                    },
-                    {
-                        "type": "folder",
-                        "title": "img",
-                        "articles": [
-                            {
-                                "type": "file",
-                                "title": "img.jpg"
-                            },
-                            {
-                                "type": "file",
-                                "title": "img_2.jpg"
-                            }
-                        ],
-                        "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
-                    }
-                ],
-                "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
-            },
             {
                 "type": "folder",
                 "title": "포커스오버효과",
@@ -388,8 +344,8 @@
                             }
                         ],
                         "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
                     },
                     {
                         "type": "folder",
@@ -401,17 +357,17 @@
                             }
                         ],
                         "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             },
             {
                 "type": "folder",
-                "title": "입체적인오버효과",
+                "title": "DISTORTION효과(뒤틀림효과)",
                 "articles": [
                     {
                         "type": "file",
@@ -419,11 +375,71 @@
                     },
                     {
                         "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "css",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "style.css"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "img.jpg"
+                            },
+                            {
+                                "type": "file",
+                                "title": "img_2.jpg"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
+                    }
+                ],
+                "description": "안녕하세요",
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
+            },
+            {
+                "type": "folder",
+                "title": "입체적인오버효과",
+                "articles": [
+                    {
+                        "type": "file",
                         "title": "index2.html"
                     },
                     {
                         "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
                         "title": "Readme.md"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "css",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "style.css"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
                     },
                     {
                         "type": "folder",
@@ -435,31 +451,18 @@
                             }
                         ],
                         "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
-                    },
-                    {
-                        "type": "folder",
-                        "title": "css",
-                        "articles": [
-                            {
-                                "type": "file",
-                                "title": "style.css"
-                            }
-                        ],
-                        "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             }
         ],
         "description": "안녕하세요",
-        "url": "http://",
-        "urlToImage": "http://www.placeholderit.png"
+        "url": "http://www.kr.playblackdesert.com",
+        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
     },
     "scroll": {
         "type": "folder",
@@ -479,19 +482,6 @@
                     },
                     {
                         "type": "folder",
-                        "title": "css",
-                        "articles": [
-                            {
-                                "type": "file",
-                                "title": "style.css"
-                            }
-                        ],
-                        "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
-                    },
-                    {
-                        "type": "folder",
                         "title": "img",
                         "articles": [
                             {
@@ -500,8 +490,8 @@
                             }
                         ],
                         "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
                     },
                     {
                         "type": "folder",
@@ -513,17 +503,30 @@
                             }
                         ],
                         "description": "안녕하세요",
-                        "url": "http://",
-                        "urlToImage": "http://www.placeholderit.png"
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "css",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "style.css"
+                            }
+                        ],
+                        "description": "안녕하세요",
+                        "url": "http://www.kr.playblackdesert.com",
+                        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
                     }
                 ],
                 "description": "안녕하세요",
-                "url": "http://",
-                "urlToImage": "http://www.placeholderit.png"
+                "url": "http://www.kr.playblackdesert.com",
+                "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
             }
         ],
         "description": "안녕하세요",
-        "url": "http://",
-        "urlToImage": "http://www.placeholderit.png"
+        "url": "http://www.kr.playblackdesert.com",
+        "thumbnail": "https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg"
     }
 }

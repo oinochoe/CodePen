@@ -51,13 +51,13 @@ const ItemBlock = styled.div`
 `;
 
 const Item = ({ article }) => {
-    const { title, description, url, urlToImage } = article;
+    const { title, description, url, thumbnail } = article;
     return (
         <ItemBlock>
-            {urlToImage && (
+            {thumbnail && (
                 <div className="thumbnail">
                     <a href={url} rel="noopener noreferrer">
-                        <img src={urlToImage} alt="thumbnail" />
+                        <img src={thumbnail} alt="thumbnail" />
                     </a>
                 </div>
             )}
