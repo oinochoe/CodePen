@@ -1,0 +1,107 @@
+{
+    "text": {
+        "name": "text",
+        "type": "folder",
+        "articles": {
+            "name": "text",
+            "type": "folder",
+            "articles": []
+        }
+    },
+    "scroll": {
+        "name": "scroll",
+        "type": "folder",
+        "articles": {
+            "name": "scroll",
+            "type": "folder",
+            "articles": []
+        }
+    },
+    "sidebar": {
+        "name": "sidebar",
+        "type": "folder",
+        "articles": {
+            "name": "sidebar",
+            "type": "folder",
+            "articles": []
+        }
+    },
+    "dragon": {
+        "name": "dragon",
+        "type": "folder",
+        "articles": [
+            {
+                "type": "file",
+                "name": "readme.md"
+            }
+        ]
+    },
+    "dkdi": {
+        "name": "dkdi",
+        "type": "folder",
+        "articles": [
+            {
+                "type": "file",
+                "name": "img2.jpg"
+            },
+            {
+                "name": "dragon",
+                "type": "folder",
+                "articles": [
+                    {
+                        "type": "file",
+                        "name": "index.html"
+                    }
+                ]
+            }
+        ]
+    },
+    "mouseover": {
+        "name": "mouseover",
+        "type": "folder",
+        "articles": [
+            {
+                "name": "dddd",
+                "type": "folder",
+                "articles": [
+                    {
+                        "type": "file",
+                        "name": "img2.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    "background": {
+        "name": "background",
+        "type": "folder",
+        "articles": [
+            {
+                "name": "dsafsdf",
+                "type": "folder",
+                "articles": [
+                    {
+                        "type": "file",
+                        "name": "b.html"
+                    }
+                ]
+            }
+        ]
+    },
+    "etc": {
+        "name": "etc",
+        "type": "folder",
+        "articles": [
+            {
+                "name": "edfsadf",
+                "type": "folder",
+                "articles": [
+                    {
+                        "type": "file",
+                        "name": "img.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+}

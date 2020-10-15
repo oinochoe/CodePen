@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "background": {
     "articles": [
       {
@@ -95,4 +96,56 @@
       }
     ]
   }
+=======
+    "dragon": {
+        "name": "dragon",
+        "type": "folder",
+        "articles": [
+            {
+                "type": "file",
+                "name": "readme.md"
+            }
+        ]
+    },
+    "dist": {
+        "name": "dist",
+        "type": "folder",
+        "articles": [
+            {
+                "name": "01_뒤틀림효과",
+                "type": "folder",
+                "articles": [
+                    {
+                        "type": "file",
+                        "name": "img.jpg"
+                    },
+                    {
+                        "type": "file",
+                        "name": "style.css"
+                    }
+                ]
+            }
+        ]
+    },
+    "dkdi": {
+        "name": "dkdi",
+        "type": "folder",
+        "articles": [
+            {
+                "type": "file",
+                "name": "img2.jpg"
+            },
+            {
+                "name": "dragon",
+                "type": "folder",
+                "articles": [
+                    {
+                        "type": "file",
+                        "name": "index.html"
+                    }
+                ]
+            }
+        ]
+    }
+>>>>>>> edb98ef25b78ad7e115e0cc3881300a6bc233444
 }
