@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const dirTree = './animation';
 const outPut = 'db.json';
-const textFile = '\\Readme.md';
 
 const arrayToObject = (array, keyField) =>
     array.reduce((obj, item) => {
@@ -42,6 +41,9 @@ const diretoryTreeToObj = (dir, done) => {
                             type: 'folder',
                             title: path.basename(file),
                             description: desc,
+                            url: file + '/index.html',
+                            thumbnail:
+                                'https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg',
                             articles:
                                 res.articles === undefined
                                     ? res
