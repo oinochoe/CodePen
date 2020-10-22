@@ -1,13 +1,21 @@
-var fs = require('fs');
-var path = require('path');
+const fs = require('fs');
+const path = require('path');
+const dirTree = './animation';
+const outPut = 'db.json';
 
-var diretoryTreeToObj = function (dir, done) {
-    var results = [];
+const arrayToObject = (array, keyField) =>
+    array.reduce((obj, item) => {
+        obj[item[keyField]] = item;
+        return obj;
+    }, {});
 
-    fs.readdir(dir, function (err, list) {
+const diretoryTreeToObj = (dir, done) => {
+    let results = [];
+
+    fs.readdir(dir, (err, list) => {
         if (err) return done(err);
 
-        var pending = list.length;
+        let pending = list.length;
 
         if (!pending)
             return done(null, {
@@ -16,11 +24,11 @@ var diretoryTreeToObj = function (dir, done) {
                 articles: results,
             });
 
-        list.forEach(function (file) {
+        list.forEach((file) => {
             file = path.resolve(dir, file);
-            fs.stat(file, function (err, stat) {
+            fs.stat(file, (err, stat) => {
                 if (stat && stat.isDirectory()) {
-                    diretoryTreeToObj(file, function (err, res) {
+                    diretoryTreeToObj(file, (err, res) => {
                         results.push({
                             type: 'folder',
                             title: path.basename(file),
@@ -29,10 +37,8 @@ var diretoryTreeToObj = function (dir, done) {
                                     ? res
                                     : [
                                           {
-                                              title: '없음',
-                                              description: '없음',
-                                              url: '없음',
-                                              thumbnail: '없음',
+                                              title:
+                                                  'UI Interaction 효과가 없습니다.',
                                           },
                                       ],
                             description: '안녕하세요',
@@ -47,6 +53,7 @@ var diretoryTreeToObj = function (dir, done) {
                         type: 'file',
                         title: path.basename(file),
                     });
+
                     if (!--pending) done(null, results);
                 }
             });
@@ -54,18 +61,7 @@ var diretoryTreeToObj = function (dir, done) {
     });
 };
 
-var dirTree = './animation';
-
-diretoryTreeToObj(dirTree, function (err, res) {
+diretoryTreeToObj(dirTree, (err, res) => {
     if (err) console.error(err);
-
-    fs.writeFileSync(
-        'myjsonfile.json',
-        JSON.stringify(arrayToObject(res, 'title')),
-    );
+    fs.writeFileSync(outPut, JSON.stringify(arrayToObject(res, 'title')));
 });
-const arrayToObject = (array, keyField) =>
-    array.reduce((obj, item) => {
-        obj[item[keyField]] = item;
-        return obj;
-    }, {});
