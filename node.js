@@ -1,13 +1,3 @@
-// const dirTree = require('directory-tree');
-// const readMarkdown = require('read-markdown');
-// const tree = dirTree('./animation');
-
-// readMarkdown('./animation/dist/**/*.md')
-//     .then(function (data) {
-//         console.log(data);
-//     })
-//     .catch(console.error);
-
 var fs = require('fs');
 var path = require('path');
 
@@ -23,7 +13,7 @@ var diretoryTreeToObj = function (dir, done) {
             return done(null, {
                 name: path.basename(dir),
                 type: 'folder',
-                articles: results
+                articles: results,
             });
 
         list.forEach(function (file) {
@@ -34,10 +24,21 @@ var diretoryTreeToObj = function (dir, done) {
                         results.push({
                             type: 'folder',
                             title: path.basename(file),
-                            articles: (res.articles === undefined) ? res : [{title:'없음',description:'없음',url:'없음',thumbnail:'없음'}],
+                            articles:
+                                res.articles === undefined
+                                    ? res
+                                    : [
+                                          {
+                                              title: '없음',
+                                              description: '없음',
+                                              url: '없음',
+                                              thumbnail: '없음',
+                                          },
+                                      ],
                             description: '안녕하세요',
                             url: 'http://www.kr.playblackdesert.com',
-                            thumbnail:'https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg'
+                            thumbnail:
+                                'https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg',
                         });
                         if (!--pending) done(null, results);
                     });
