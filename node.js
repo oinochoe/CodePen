@@ -30,11 +30,19 @@ const diretoryTreeToObj = (dir, done) => {
                 if (stat && stat.isDirectory()) {
                     diretoryTreeToObj(file, (err, res) => {
                         let desc = '';
+                        let image = '';
                         if (fs.existsSync(file + '\\Readme.md')) {
                             desc =
                                 fs
                                     .readFileSync(file + '\\Readme.md', 'UTF-8')
                                     .split('\n')[0] || '';
+                        }
+
+                        if (
+                            fs.existsSync(file + '\\*.jpg') ||
+                            fs.existsSync(file + '\\*.png')
+                        ) {
+                            console.log('이미지 있다.');
                         }
 
                         results.push({
