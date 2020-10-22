@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const dirTree = './animation';
 const outPut = 'db.json';
+const textFile = '\\Readme.md';
 
 const arrayToObject = (array, keyField) =>
     array.reduce((obj, item) => {
@@ -29,9 +30,18 @@ const diretoryTreeToObj = (dir, done) => {
             fs.stat(file, (err, stat) => {
                 if (stat && stat.isDirectory()) {
                     diretoryTreeToObj(file, (err, res) => {
+                        let desc = '';
+                        if (fs.existsSync(file + '\\Readme.md')) {
+                            desc =
+                                fs
+                                    .readFileSync(file + '\\Readme.md', 'UTF-8')
+                                    .split('\n')[0] || '';
+                        }
+
                         results.push({
                             type: 'folder',
                             title: path.basename(file),
+                            description: desc,
                             articles:
                                 res.articles === undefined
                                     ? res
@@ -41,10 +51,6 @@ const diretoryTreeToObj = (dir, done) => {
                                                   'UI Interaction 효과가 없습니다.',
                                           },
                                       ],
-                            description: '안녕하세요',
-                            url: 'http://www.kr.playblackdesert.com',
-                            thumbnail:
-                                'https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg',
                         });
                         if (!--pending) done(null, results);
                     });

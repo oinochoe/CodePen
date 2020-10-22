@@ -4,7 +4,7 @@ import Item from './Item';
 import axios from 'axios';
 import usePromise from '../lib/usePromise';
 
-const NewsListBlock = styled.div`
+const ListBlock = styled.div`
     box-sizing: border-box;
     padding-bottom: 3rem;
     width: 768px;
@@ -28,7 +28,7 @@ const NewsList = ({ category }) => {
 
     // 대기중일때
     if (loading) {
-        return <NewsListBlock>대기중...</NewsListBlock>;
+        return <ListBlock>대기중...</ListBlock>;
     }
     // 아직 response 값이 설정되지 않았을 때
     if (!response) {
@@ -36,18 +36,22 @@ const NewsList = ({ category }) => {
     }
     // 에러가 발생했을 때
     if (error) {
-        return <NewsListBlock>에러 발생!</NewsListBlock>;
+        return <ListBlock>에러 발생!</ListBlock>;
     }
 
     // response 값이 유효할 때
     const { articles } = response.data;
-    console.log(articles)
+    console.log(articles);
     return (
-        <NewsListBlock>
+        <ListBlock>
             {articles.map((article) => (
-                <Item key={article.url} article={article} />
+                <Item
+                    key={article.url}
+                    article={article}
+                    desc={articles.desc}
+                />
             ))}
-        </NewsListBlock>
+        </ListBlock>
     );
 };
 

@@ -40,7 +40,7 @@ const ItemBlock = styled.div`
             }
         }
         p {
-            margin: 0;
+            margin: 5px 0 0 0;
             line-height: 1.4;
             white-space: normal;
         }
