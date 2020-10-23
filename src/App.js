@@ -5,8 +5,7 @@ import ListPage from './pages/ListPage';
 const App = () => {
     return (
         <BrowserRouter>
-            <Route path="/List_Feed/:category?" component={ListPage} />
-            {/* <Route path="/List_Feed/animation" component={ViewPage} /> */}
+            <Route path="/:category?" component={ListPage} />
         </BrowserRouter>
     );
 };

@@ -1,25 +1,19 @@
 {
-    "name": "news-viewer",
+    "name": "ui-interaction",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@testing-library/jest-dom": "^4.2.4",
-        "@testing-library/react": "^9.3.2",
-        "@testing-library/user-event": "^7.1.2",
         "axios": "^0.19.1",
-        "axios-jsonp-pro": "^1.1.8",
-        "cross-env": "^7.0.2",
-        "directory-structure-json": "^1.0.0",
-        "directory-tree": "^2.2.5",
-        "dotenv": "^8.2.0",
-        "pm2": "^4.5.0",
+        "json-server": "^0.16.2",
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
         "react-iframe": "^1.8.0",
         "react-router-dom": "^5.1.2",
         "react-scripts": "3.4.0",
-        "read-markdown": "^1.0.2",
         "styled-components": "^4.4.1"
+    },
+    "devDependencies": {
+        "gh-pages": "^2.2.0"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -28,7 +22,8 @@
         "eject": "react-scripts eject",
         "predeploy": "yarn build",
         "deploy": "gh-pages -d build",
-        "json-server": "json-server --watch db.json --port 3001"
+        "json-server": "json-server --watch db.json --port 3001",
+        "forever": "forever start -w -o ./out.log -e ./err.log node.js"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -44,10 +39,5 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "homepage": "https://oinochoe.github.io/List_Feed",
-    "devDependencies": {
-        "gh-pages": "^2.2.0",
-        "json-server": "^0.16.2"
     }
 }

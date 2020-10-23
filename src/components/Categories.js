@@ -71,11 +71,7 @@ const Categories = () => {
                     key={c.name}
                     activeClassName="active"
                     exact={c.name === 'background'}
-                    to={
-                        c.name === 'background'
-                            ? '/List_Feed/'
-                            : `/List_Feed/${c.name}`
-                    }
+                    to={c.name === 'background' ? '/' : `/${c.name}`}
                 >
                     {c.text}
                 </Category>
