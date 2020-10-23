@@ -21,7 +21,7 @@
             {
                 "type": "folder",
                 "title": "로딩애니메이션",
-                "description": "# 다양한 로딩 스타일 입니다.888888",
+                "description": "# 다양한 로딩 스타일 입니다.",
                 "url": "\\animation\\etc\\로딩애니메이션\\index.html",
                 "thumbnail": "/animation/background/배경이미지겹칩(이동효과)/img/tumblr_p7n8kqHMuD1uy4lhuo1_540.png",
                 "articles": [
@@ -31,11 +31,11 @@
                     },
                     {
                         "type": "file",
-                        "title": "style.css"
+                        "title": "Readme.md"
                     },
                     {
                         "type": "file",
-                        "title": "Readme.md"
+                        "title": "style.css"
                     }
                 ]
             },
@@ -122,22 +122,35 @@
         "title": "scroll",
         "description": "",
         "url": "\\animation\\scroll\\index.html",
-        "thumbnail": "\\animation\\mouseover\\DISTORTION효과(뒤틀림효과)\\img\\thumb.jpg",
+        "thumbnail": "\\animation\\scroll\\마우스스크롤 레이지로딩2\\img\\thumb.jpg",
         "articles": [
             {
                 "type": "folder",
                 "title": "마우스스크롤 레이지로딩2",
                 "description": "# 마우스 스크롤에 따른 이미지 로드",
                 "url": "\\animation\\scroll\\마우스스크롤 레이지로딩2\\index.html",
-                "thumbnail": "\\animation\\mouseover\\DISTORTION효과(뒤틀림효과)\\img\\thumb.jpg",
+                "thumbnail": "\\animation\\scroll\\마우스스크롤 레이지로딩2\\img\\thumb.jpg",
                 "articles": [
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
                     {
                         "type": "file",
                         "title": "index.html"
                     },
                     {
-                        "type": "file",
-                        "title": "Readme.md"
+                        "type": "folder",
+                        "title": "css",
+                        "description": "",
+                        "url": "\\animation\\scroll\\마우스스크롤 레이지로딩2\\css\\index.html",
+                        "thumbnail": "/animation/background/배경이미지겹칩(이동효과)/img/tumblr_p7n8kqHMuD1uy4lhuo1_540.png",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "style.css"
+                            }
+                        ]
                     },
                     {
                         "type": "folder",
@@ -164,19 +177,6 @@
                                 "title": "lazyload.js"
                             }
                         ]
-                    },
-                    {
-                        "type": "folder",
-                        "title": "css",
-                        "description": "",
-                        "url": "\\animation\\scroll\\마우스스크롤 레이지로딩2\\css\\index.html",
-                        "thumbnail": "\\animation\\mouseover\\DISTORTION효과(뒤틀림효과)\\img\\thumb.jpg",
-                        "articles": [
-                            {
-                                "type": "file",
-                                "title": "style.css"
-                            }
-                        ]
                     }
                 ]
             }
@@ -189,27 +189,6 @@
         "url": "\\animation\\background\\index.html",
         "thumbnail": "\\animation\\background\\배경이미지겹칩(이동효과)\\img\\thumb.jpg",
         "articles": [
-            {
-                "type": "folder",
-                "title": "svg구름효과",
-                "description": "# 배경에  svg로 구름효과를 추가할 수 있는 스타일입니다.",
-                "url": "\\animation\\background\\svg구름효과\\index.html",
-                "thumbnail": "/animation/background/배경이미지겹칩(이동효과)/img/tumblr_p7n8kqHMuD1uy4lhuo1_540.png",
-                "articles": [
-                    {
-                        "type": "file",
-                        "title": "index.html"
-                    },
-                    {
-                        "type": "file",
-                        "title": "Readme.md"
-                    },
-                    {
-                        "type": "file",
-                        "title": "style.css"
-                    }
-                ]
-            },
             {
                 "type": "folder",
                 "title": "반딧불효과",
@@ -232,6 +211,27 @@
                     {
                         "type": "file",
                         "title": "style.js"
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "title": "svg구름효과",
+                "description": "# 배경에  svg로 구름효과를 추가할 수 있는 스타일입니다.",
+                "url": "\\animation\\background\\svg구름효과\\index.html",
+                "thumbnail": "/animation/background/배경이미지겹칩(이동효과)/img/tumblr_p7n8kqHMuD1uy4lhuo1_540.png",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "file",
+                        "title": "style.css"
                     }
                 ]
             },
@@ -307,11 +307,11 @@
                     },
                     {
                         "type": "file",
-                        "title": "style.css"
+                        "title": "Readme.md"
                     },
                     {
                         "type": "file",
-                        "title": "Readme.md"
+                        "title": "style.css"
                     },
                     {
                         "type": "folder",
@@ -351,7 +351,7 @@
         "title": "mouseover",
         "description": "",
         "url": "\\animation\\mouseover\\index.html",
-        "thumbnail": "\\animation\\mouseover\\포커스오버효과\\img\\thumb.jpg",
+        "thumbnail": "\\animation\\mouseover\\입체적인오버효과\\img\\thumb.jpg",
         "articles": [
             {
                 "type": "folder",
@@ -362,18 +362,18 @@
                 "articles": [
                     {
                         "type": "file",
-                        "title": "index.html"
+                        "title": "Readme.md"
                     },
                     {
                         "type": "file",
-                        "title": "Readme.md"
+                        "title": "index.html"
                     },
                     {
                         "type": "folder",
                         "title": "css",
                         "description": "",
                         "url": "\\animation\\mouseover\\DISTORTION효과(뒤틀림효과)\\css\\index.html",
-                        "thumbnail": "\\animation\\scroll\\마우스스크롤 레이지로딩2\\img\\thumb.jpg",
+                        "thumbnail": "\\animation\\background\\바닷속효과\\img\\thumb.jpg",
                         "articles": [
                             {
                                 "type": "file",
@@ -395,53 +395,6 @@
                             {
                                 "type": "file",
                                 "title": "img_2.jpg"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "folder",
-                "title": "입체적인오버효과",
-                "description": "# 마우스 오버효과입니다.",
-                "url": "\\animation\\mouseover\\입체적인오버효과\\index.html",
-                "thumbnail": "\\animation\\mouseover\\입체적인오버효과\\img\\thumb.jpg",
-                "articles": [
-                    {
-                        "type": "file",
-                        "title": "index.html"
-                    },
-                    {
-                        "type": "file",
-                        "title": "index2.html"
-                    },
-                    {
-                        "type": "file",
-                        "title": "Readme.md"
-                    },
-                    {
-                        "type": "folder",
-                        "title": "css",
-                        "description": "",
-                        "url": "\\animation\\mouseover\\입체적인오버효과\\css\\index.html",
-                        "thumbnail": "\\animation\\background\\배경이미지겹칩(이동효과)\\img\\thumb.jpg",
-                        "articles": [
-                            {
-                                "type": "file",
-                                "title": "style.css"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "folder",
-                        "title": "img",
-                        "description": "",
-                        "url": "\\animation\\mouseover\\입체적인오버효과\\img\\index.html",
-                        "thumbnail": "\\animation\\mouseover\\입체적인오버효과\\img\\thumb.jpg",
-                        "articles": [
-                            {
-                                "type": "file",
-                                "title": "img.png"
                             }
                         ]
                     }
@@ -485,6 +438,53 @@
                             {
                                 "type": "file",
                                 "title": "img.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "title": "입체적인오버효과",
+                "description": "# 마우스 오버효과입니다.",
+                "url": "\\animation\\mouseover\\입체적인오버효과\\index.html",
+                "thumbnail": "\\animation\\mouseover\\입체적인오버효과\\img\\thumb.jpg",
+                "articles": [
+                    {
+                        "type": "file",
+                        "title": "index.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "index2.html"
+                    },
+                    {
+                        "type": "file",
+                        "title": "Readme.md"
+                    },
+                    {
+                        "type": "folder",
+                        "title": "css",
+                        "description": "",
+                        "url": "\\animation\\mouseover\\입체적인오버효과\\css\\index.html",
+                        "thumbnail": "\\animation\\mouseover\\포커스오버효과\\img\\thumb.jpg",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "style.css"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "folder",
+                        "title": "img",
+                        "description": "",
+                        "url": "\\animation\\mouseover\\입체적인오버효과\\img\\index.html",
+                        "thumbnail": "\\animation\\mouseover\\입체적인오버효과\\img\\thumb.jpg",
+                        "articles": [
+                            {
+                                "type": "file",
+                                "title": "img.png"
                             }
                         ]
                     }
