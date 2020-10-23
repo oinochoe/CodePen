@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const dirTree = '/animation';
+const dirTree = './public/animation';
 const outPut = 'db.json';
 let image =
-    'https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg';
+    '/animation/background/배경이미지겹칩(이동효과)/img/tumblr_p7n8kqHMuD1uy4lhuo1_540.png';
 
 const arrayToObject = (array, keyField) =>
     array.reduce((obj, item) => {
@@ -41,14 +41,14 @@ const diretoryTreeToObj = (dir, done) => {
 
                         if (file.split('\\').pop() === 'img') {
                             image =
-                                '/animation\\background바닷속효과\\img\\bg_light.jpg';
+                                file.split('public')[1] + '\\' + 'thumb.jpg';
                         }
 
                         results.push({
                             type: 'folder',
                             title: path.basename(file),
                             description: desc,
-                            url: file + '/index.html',
+                            url: file.split('public')[1] + '\\' + 'index.html',
                             thumbnail: image,
                             articles:
                                 res.articles === undefined

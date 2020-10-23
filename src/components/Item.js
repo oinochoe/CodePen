@@ -56,8 +56,21 @@ const Item = ({ article }) => {
         <ItemBlock>
             {thumbnail && (
                 <div className="thumbnail">
-                    <a href={url} rel="noopener noreferrer">
-                        <img src={thumbnail} alt="thumbnail" />
+                    <a
+                        href={process.env.PUBLIC_URL + url}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img
+                            src={process.env.PUBLIC_URL + thumbnail}
+                            alt="thumbnail"
+                            onError={(e) => {
+                                e.target.onerror = null;
+                                e.target.src =
+                                    process.env.PUBLIC_URL +
+                                    '/animation/background/배경이미지겹칩(이동효과)/img/tumblr_p7n8kqHMuD1uy4lhuo1_540.png';
+                            }}
+                        />
                     </a>
                 </div>
             )}
