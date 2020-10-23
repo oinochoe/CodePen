@@ -23,7 +23,7 @@
         "predeploy": "yarn build",
         "deploy": "gh-pages -d build",
         "json-server": "json-server --watch db.json --port 3001",
-        "forever": "forever start -w -o ./out.log -e ./err.log node.js"
+        "forever": "forever start -w --watchDirectory ./public/animation node.js"
     },
     "eslintConfig": {
         "extends": "react-app"
