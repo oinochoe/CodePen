@@ -1,4 +1,5 @@
 import React from 'react';
+import Iframe from 'react-iframe';
 import styled from 'styled-components';
 
 const ItemBlock = styled.div`
@@ -61,7 +62,7 @@ const Item = ({ article }) => {
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        <img
+                        {/* <img
                             src={process.env.PUBLIC_URL + thumbnail}
                             alt="thumbnail"
                             onError={(e) => {
@@ -69,6 +70,15 @@ const Item = ({ article }) => {
                                 e.target.src =
                                     process.env.PUBLIC_URL + '/default.jpg';
                             }}
+                        /> */}
+                        <Iframe
+                            url={process.env.PUBLIC_URL + url}
+                            width="450px"
+                            height="450px"
+                            id="myId"
+                            className="myClassname"
+                            display="initial"
+                            position="relative"
                         />
                     </a>
                 </div>
