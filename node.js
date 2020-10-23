@@ -39,8 +39,8 @@ const diretoryTreeToObj = (dir, done) => {
                         }
 
                         if (
-                            fs.existsSync(file + '\\*.jpg') ||
-                            fs.existsSync(file + '\\*.png')
+                            fs.existsSync(path.extname(file)) === '.jpg' ||
+                            fs.existsSync(path.extname(file)) === '.png'
                         ) {
                             console.log('이미지 있다.');
                         }
