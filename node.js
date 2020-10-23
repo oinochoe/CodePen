@@ -31,24 +31,24 @@ const diretoryTreeToObj = (dir, done) => {
                 if (stat && stat.isDirectory()) {
                     diretoryTreeToObj(file, (err, res) => {
                         let desc = '';
-                        if (fs.existsSync(file + '\\Readme.md')) {
+                        if (fs.existsSync(file + '/Readme.md')) {
                             desc =
                                 fs
-                                    .readFileSync(file + '\\Readme.md', 'UTF-8')
+                                    .readFileSync(file + '/Readme.md', 'UTF-8')
                                     .split('\n')[0] || '';
                         }
 
                         // image 기능 대신에 iframe 넣을 예정
-                        // if (file.split('\\').pop() === 'img') {
+                        // if (file.split('/').pop() === 'img') {
                         //     image =
-                        //         file.split('public')[1] + '\\' + 'thumb.jpg';
+                        //         file.split('public')[1] + '/' + 'thumb.jpg';
                         // }
-
+                        console.log(res);
                         results.push({
                             type: 'folder',
                             title: path.basename(file),
                             description: desc,
-                            url: file.split('public')[1] + '\\' + 'index.html',
+                            url: file.split('public')[1] + '/' + 'index.html',
                             // thumbnail: image,
                             articles:
                                 res.articles === undefined
