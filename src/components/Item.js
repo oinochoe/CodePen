@@ -12,8 +12,8 @@ const ItemBlock = styled.div`
         margin-right: 1rem;
         img {
             display: block;
-            width: 160px;
-            height: 100px;
+            width: 260px;
+            height: 200px;
             object-fit: cover;
             -webkit-transition: filter 0.3s;
             transition: filter 0.3s;
@@ -72,13 +72,9 @@ const Item = ({ article }) => {
                             }}
                         /> */}
                         <Iframe
+                            width="400"
+                            height="400"
                             url={process.env.PUBLIC_URL + url}
-                            width="450px"
-                            height="450px"
-                            id="myId"
-                            className="myClassname"
-                            display="initial"
-                            position="relative"
                         />
                     </a>
                 </div>
