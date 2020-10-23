@@ -1,15 +1,8 @@
 const fs = require('fs');
-const watchDir = require('chokidar');
 const path = require('path');
 const dirTree = './public/animation';
 const outPut = 'db.json';
-let image =
-    '/animation/background/배경이미지겹칩(이동효과)/img/tumblr_p7n8kqHMuD1uy4lhuo1_540.png';
-
-const watcher = watchDir.watch(dirTree, {
-    ignored: /^\./,
-    persistent: true,
-});
+let image = '/default.jpg';
 
 const arrayToObject = (array, keyField) =>
     array.reduce((obj, item) => {
@@ -45,17 +38,18 @@ const diretoryTreeToObj = (dir, done) => {
                                     .split('\n')[0] || '';
                         }
 
-                        if (file.split('\\').pop() === 'img') {
-                            image =
-                                file.split('public')[1] + '\\' + 'thumb.jpg';
-                        }
+                        // image 기능 대신에 iframe 넣을 예정
+                        // if (file.split('\\').pop() === 'img') {
+                        //     image =
+                        //         file.split('public')[1] + '\\' + 'thumb.jpg';
+                        // }
 
                         results.push({
                             type: 'folder',
                             title: path.basename(file),
                             description: desc,
                             url: file.split('public')[1] + '\\' + 'index.html',
-                            thumbnail: image,
+                            // thumbnail: image,
                             articles:
                                 res.articles === undefined
                                     ? res

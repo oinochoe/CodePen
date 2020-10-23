@@ -67,8 +67,7 @@ const Item = ({ article }) => {
                             onError={(e) => {
                                 e.target.onerror = null;
                                 e.target.src =
-                                    process.env.PUBLIC_URL +
-                                    '/animation/background/배경이미지겹칩(이동효과)/img/tumblr_p7n8kqHMuD1uy4lhuo1_540.png';
+                                    process.env.PUBLIC_URL + '/default.jpg';
                             }}
                         />
                     </a>
