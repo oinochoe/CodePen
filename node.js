@@ -1,9 +1,15 @@
 const fs = require('fs');
+const watchDir = require('chokidar');
 const path = require('path');
 const dirTree = './public/animation';
 const outPut = 'db.json';
 let image =
     '/animation/background/배경이미지겹칩(이동효과)/img/tumblr_p7n8kqHMuD1uy4lhuo1_540.png';
+
+const watcher = watchDir.watch(dirTree, {
+    ignored: /^\./,
+    persistent: true,
+});
 
 const arrayToObject = (array, keyField) =>
     array.reduce((obj, item) => {

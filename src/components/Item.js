@@ -76,7 +76,11 @@ const Item = ({ article }) => {
             )}
             <div className="contents">
                 <h2>
-                    <a href={url} rel="noopener noreferrer">
+                    <a
+                        href={process.env.PUBLIC_URL + url}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         {title}
                     </a>
                 </h2>
