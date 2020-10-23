@@ -1,7 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const dirTree = './animation';
+const dirTree = '/animation';
 const outPut = 'db.json';
+let image =
+    'https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg';
 
 const arrayToObject = (array, keyField) =>
     array.reduce((obj, item) => {
@@ -30,7 +32,6 @@ const diretoryTreeToObj = (dir, done) => {
                 if (stat && stat.isDirectory()) {
                     diretoryTreeToObj(file, (err, res) => {
                         let desc = '';
-                        let image = '';
                         if (fs.existsSync(file + '\\Readme.md')) {
                             desc =
                                 fs
@@ -38,11 +39,9 @@ const diretoryTreeToObj = (dir, done) => {
                                     .split('\n')[0] || '';
                         }
 
-                        if (
-                            fs.existsSync(path.extname(file)) === '.jpg' ||
-                            fs.existsSync(path.extname(file)) === '.png'
-                        ) {
-                            console.log('이미지 있다.');
+                        if (file.split('\\').pop() === 'img') {
+                            image =
+                                '/animation\\background바닷속효과\\img\\bg_light.jpg';
                         }
 
                         results.push({
@@ -50,8 +49,7 @@ const diretoryTreeToObj = (dir, done) => {
                             title: path.basename(file),
                             description: desc,
                             url: file + '/index.html',
-                            thumbnail:
-                                'https://s1.pearlcdn.com/KR/Upload/News/71bab50060920190531115440622.jpg',
+                            thumbnail: image,
                             articles:
                                 res.articles === undefined
                                     ? res
