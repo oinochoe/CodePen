@@ -55,6 +55,7 @@ const Item = ({ article }) => {
     const { title, description, url, thumbnail } = article;
     return (
         <ItemBlock>
+            {/* thumbnail이 있어야만 iframe도 나오는 것이다.............. */}
             {thumbnail && (
                 <div className="thumbnail">
                     <a

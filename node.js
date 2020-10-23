@@ -43,13 +43,12 @@ const diretoryTreeToObj = (dir, done) => {
                         //     image =
                         //         file.split('public')[1] + '/' + 'thumb.jpg';
                         // }
-                        console.log(res);
                         results.push({
                             type: 'folder',
                             title: path.basename(file),
                             description: desc,
                             url: file.split('public')[1] + '/' + 'index.html',
-                            // thumbnail: image,
+                            thumbnail: image,
                             articles:
                                 res.articles === undefined
                                     ? res

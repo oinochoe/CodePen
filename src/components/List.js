@@ -41,7 +41,6 @@ const NewsList = ({ category }) => {
 
     // response 값이 유효할 때
     const { articles } = response.data;
-    console.log(articles);
     return (
         <ListBlock>
             {articles.map((article) => (
