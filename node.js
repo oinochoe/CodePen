@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const dirTree = './public/animation';
 const outPut = 'db.json';
+const pathFolder = 'public';
 let image = '/default.jpg';
 
 const arrayToObject = (array, keyField) =>
@@ -41,13 +42,13 @@ const diretoryTreeToObj = (dir, done) => {
                         // image 기능 대신에 iframe 넣을 예정
                         // if (file.split('/').pop() === 'img') {
                         //     image =
-                        //         file.split('public')[1] + '/' + 'thumb.jpg';
+                        //         file.split(pathFolder)[1] + '/' + 'thumb.jpg';
                         // }
                         results.push({
                             type: 'folder',
                             title: path.basename(file),
                             description: desc,
-                            url: file.split('public')[1] + '/' + 'index.html',
+                            url: file.split(pathFolder)[1] + '/' + 'index.html',
                             thumbnail: image,
                             articles:
                                 res.articles === undefined
