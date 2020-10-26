@@ -17,13 +17,13 @@
         "name": "json-server",
         "script": "server.js",
         "watch": true,
-        "watch_delay": 1,
+        "watch_delay": 1000,
         "env": {
             "port": 3001
         },
         "cron_restart": "0 6 * * 1",
         "autorestart": true,
-        "restart_delay":1,
+        "restart_delay":2000,
         "node_args": ["--max_old_space_size=4096"]
     }
 ]}
