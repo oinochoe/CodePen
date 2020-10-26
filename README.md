@@ -4,9 +4,9 @@
 
 ## Command
 ```
-forever start -w --watchDirectory ./public/animation db.js
+  forever start -w --watchDirectory ./public/animation db.js
 
-pm2 start play.json
+  pm2 start play.json
 ```
 
 ## deleted(Deperecated)

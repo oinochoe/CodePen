@@ -24,3 +24,9 @@ yarn-error.log*
 
 
 /public/animation/
+
+*/animation/*
+
+/animation
+
+db.json
