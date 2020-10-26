@@ -1,0 +1,42 @@
+{
+    "apps":
+    [
+    {
+        "name": "react-app",
+        "script": "npm",
+        "args":"start",
+        "watch": false,
+        "env": {
+            "port": 3000
+        },
+        "cron_restart": "0 6 * * 1",
+        "autorestart": true,
+        "restart_delay":2000,
+        "node_args": ["--max_old_space_size=4096"]
+    },
+    {
+        "name": "json-server",
+        "script": "npm",
+        "args":"json-server",
+        "watch": true,
+        "env": {
+            "port": 3001
+        },
+        "cron_restart": "0 6 * * 1",
+        "autorestart": true,
+        "restart_delay":2000,
+        "node_args": ["--max_old_space_size=4096"]
+    },
+    {
+        "name": "watch-directory",
+        "script": "node",
+        "args":"node.js",
+        "watch": true,
+        "cron_restart": "0 6 * * 1",
+        "autorestart": true,
+        "restart_delay":2000,
+        "node_args": ["--max_old_space_size=4096"]
+    }
+]}
+
+
