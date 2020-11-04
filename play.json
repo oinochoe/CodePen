@@ -19,7 +19,7 @@
         "watch": true,
         "watch_delay": 1000,
         "env": {
-            "port": 3001
+            "port": 4000
         },
         "cron_restart": "0 6 * * 1",
         "autorestart": true,

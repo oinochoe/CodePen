@@ -21,7 +21,7 @@ const ListBlock = styled.div`
 
 const NewsList = ({ category }) => {
     const [loading, response, error] = usePromise(() => {
-        return axios.get(`http://localhost:3001/${category}`, {
+        return axios.get(`/${category}`, {
             timeout: 1000,
         });
     }, [category]);
