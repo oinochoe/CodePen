@@ -6,7 +6,7 @@
         "script": "scripts/start.js",
         "watch": false,
         "env": {
-            "port": 3000
+            "port": 80
         },
         "cron_restart": "0 6 * * 1",
         "autorestart": true,
