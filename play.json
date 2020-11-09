@@ -11,7 +11,8 @@
         "cron_restart": "0 6 * * 1",
         "autorestart": true,
         "restart_delay":2000,
-        "node_args": ["--max_old_space_size=4096"]
+        "node_args": ["--max_old_space_size=4096"],
+        "exp_backoff_restart_delay": 100
     },
     {
         "name": "json-server",
@@ -24,7 +25,8 @@
         "cron_restart": "0 6 * * 1",
         "autorestart": true,
         "restart_delay":2000,
-        "node_args": ["--max_old_space_size=4096"]
+        "node_args": ["--max_old_space_size=4096"],
+        "exp_backoff_restart_delay": 100
     }
 ]}
 
