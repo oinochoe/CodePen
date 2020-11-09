@@ -146,5 +146,6 @@
       "react-app"
     ]
   },
-  "proxy": "http://localhost:4000"
+  "proxy": "http://localhost:4000",
+  "secure": false
 }
