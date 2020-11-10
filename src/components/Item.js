@@ -25,6 +25,9 @@ const ItemBlock = styled.div`
                 margin-bottom: 0.5rem;
             }
         }
+        a {
+            display: block;
+        }
     }
     .contents {
         display: flex;
