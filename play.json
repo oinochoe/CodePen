@@ -12,7 +12,9 @@
         "autorestart": true,
         "restart_delay":2000,
         "node_args": ["--max_old_space_size=4096"],
-        "exp_backoff_restart_delay": 100
+        "exp_backoff_restart_delay": 100,
+        "instances" : "max",
+        "exec_mode" : "cluster"
     },
     {
         "name": "json-server",
@@ -26,7 +28,9 @@
         "autorestart": true,
         "restart_delay":2000,
         "node_args": ["--max_old_space_size=4096"],
-        "exp_backoff_restart_delay": 100
+        "exp_backoff_restart_delay": 100,
+        "instances" : "max",
+        "exec_mode" : "cluster"
     }
 ]}
 
