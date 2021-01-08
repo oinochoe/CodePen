@@ -6,7 +6,7 @@ const Header = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+    padding: .5rem;
     box-sizing: border-box;
     background: linear-gradient(to bottom, #092d52, #0e4a85);
     color: #fff;
@@ -14,7 +14,7 @@ const Header = styled.div`
 `;
 
 const HeaderWrap = () => {
-    return <Header>UI Interactions</Header>;
+    return <Header>Interactions</Header>;
 };
 
 export default HeaderWrap;

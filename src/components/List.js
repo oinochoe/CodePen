@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import styled from 'styled-components';
 import Item from './Item';
 import axios from 'axios';
@@ -6,10 +6,13 @@ import usePromise from '../lib/usePromise';
 
 const ListBlock = styled.div`
     box-sizing: border-box;
-    padding-bottom: 3rem;
-    width: 768px;
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
     margin: 0 auto;
     margin-top: 2rem;
+    margin-bottom: 10rem;
+    padding:0 2rem;
     @media screen and (max-width: 768px) {
         width: 100%;
         padding-left: 1rem;
@@ -19,7 +22,7 @@ const ListBlock = styled.div`
     }
 `;
 
-const NewsList = ({ category }) => {
+const List = ({ category }) => {
     const [loading, response, error] = usePromise(() => {
         return axios.get(`/${category}`, {
             timeout: 1000,
@@ -54,4 +57,4 @@ const NewsList = ({ category }) => {
     );
 };
 
-export default NewsList;
+export default List;

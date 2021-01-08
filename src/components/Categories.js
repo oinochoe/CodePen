@@ -16,8 +16,8 @@ const categories = [
         text: '스크롤효과',
     },
     {
-        name: 'sidebar',
-        text: '사이드바효과',
+        name: 'minigame',
+        text: '미니게임',
     },
     {
         name: 'text',

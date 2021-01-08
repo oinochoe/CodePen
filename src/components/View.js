@@ -21,7 +21,7 @@
 
 // const NewsList = ({ category }) => {
 //     const [loading, response, error] = usePromise(() => {
-//         return axios.get(`/${category}`, {
+//         return axios.get(`http://localhost:3001/${category}`, {
 //             timeout: 1000,
 //         });
 //     }, [category]);
