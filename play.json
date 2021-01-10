@@ -2,11 +2,11 @@
     "apps":
     [
     {
-        "name": "react-app",
+        "name": "codepen",
         "script": "scripts/start.js",
         "watch": false,
         "env": {
-            "PORT": 81
+            "PORT": 3002
         },
         "cron_restart": "0 6 * * 1",
         "autorestart": true,
