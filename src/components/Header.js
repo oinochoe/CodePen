@@ -14,6 +14,17 @@ const Header = styled.div`
 `;
 
 const HeaderWrap = () => {
+    setTimeout(() => {
+        var iframe = document.querySelectorAll('iframe');
+
+        iframe.forEach((el) => {
+            var iframeBody = el.contentWindow.document.body;
+            var script = document.createElement('script');
+            script.src = `${process.env.PUBLIC_URL}/stop_animation.js`;
+
+            iframeBody.appendChild(script);
+        });
+    }, 1500);
     return <Header>Interactions</Header>;
 };
 

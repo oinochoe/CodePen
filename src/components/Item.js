@@ -93,9 +93,6 @@ const Item = ({ article }) => {
         console.log(event);
     }
 
-    var iframe = document.querySelectorAll('iframe');
-    console.log(iframe)
-
     return (
         <ItemBlock>
             {thumbnail && (
