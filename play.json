@@ -6,7 +6,7 @@
         "script": "scripts/start.js",
         "watch": false,
         "env": {
-            "port": 81
+            "PORT": 81
         },
         "cron_restart": "0 6 * * 1",
         "autorestart": true,
@@ -22,7 +22,7 @@
         "watch": true,
         "watch_delay": 1000,
         "env": {
-            "port": 4000
+            "PORT": 4000
         },
         "cron_restart": "0 6 * * 1",
         "autorestart": true,
