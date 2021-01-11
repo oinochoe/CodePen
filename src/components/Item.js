@@ -7,7 +7,7 @@ const ItemBlock = styled.div`
     display: block;
     text-align: center;
     width: 33.33%;
-    flex: 0 0 33.33%;
+    flex: 1 0 33.33%;
 
     iframe {
         position: relative;
@@ -58,6 +58,13 @@ const ItemBlock = styled.div`
                 margin-bottom: 0.5rem;
             }
         } */
+
+        a {
+            display:block; position:relative; padding-bottom:56.25%;
+            iframe {
+                position:absolute; width:100%; height:100%;
+            }
+        }
     }
     .contents {
         display: flex;

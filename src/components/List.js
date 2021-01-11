@@ -21,6 +21,12 @@ const ListBlock = styled.div`
         font-size: 0.8rem;
         margin-top: 0;
     }
+    .howmany {
+        display:block; position:absolute; right:50%; top:50px; margin-right:-500px;
+        input {
+            padding:5px;
+        }
+    }
 `;
 
 const Paging = styled.div`
@@ -204,7 +210,7 @@ const Paging = styled.div`
 
 const List = ({ category }) => {
 
-    const listLimitNumber = 2;
+    const [listLimitNumber, setLimit] = useState(2);
     const [page, setPage] = useState(1);
     const [totalCnt, setTotalCnt] = useState(0);
     // const [articles, setArticles] = useState([]);
@@ -212,6 +218,10 @@ const List = ({ category }) => {
     const onChangePage = (pageChange) => {
         setPage(pageChange);
     };
+
+    const onChange = (e) => {
+        setLimit(e.target.value);
+    }
 
     const [loading, response, error] = usePromise(() => {
         return axios.get(`/${category}`, {
@@ -241,13 +251,28 @@ const List = ({ category }) => {
 
     return (
         <ListBlock>
-            {Array.from(articles).slice(listLimitNumber * page - listLimitNumber, listLimitNumber * page).map((article) => (
-                <Item
-                    key={article.url}
-                    article={article}
-                    desc={articles.desc}
+            <label className="howmany">
+                <span>Visible : </span>
+                <input
+                    type="number"
+                    value={listLimitNumber}
+                    onChange={onChange}
+                    min="1"
+                    max="10"
                 />
-            ))}
+            </label>
+            {Array.from(articles)
+                .slice(
+                    listLimitNumber * page - listLimitNumber,
+                    listLimitNumber * page,
+                )
+                .map((article) => (
+                    <Item
+                        key={article.url}
+                        article={article}
+                        desc={articles.desc}
+                    />
+                ))}
             <Paging>
                 <Pagination
                     onChange={onChangePage}
