@@ -46,14 +46,20 @@ const Paging = styled.div`
             }
 
             &.active {
-                background: #b60038;
-                border: 1px solid #b60038;
+                background: #0c3d6c;
+                border: 1px solid #0c3d6c;
                 a {
                     color: #fff;
                 }
             }
-            &:hover {
-                border: 1px solid #b60038;
+            &:not(.disabled):hover {
+                border: 1px solid #0c3d6c;
+            }
+            &.disabled {
+                opacity: 0.5;
+                a {
+                    cursor: not-allowed;
+                }
             }
 
             a {
@@ -62,8 +68,9 @@ const Paging = styled.div`
                 font-size: 18px;
                 font-weight: 400;
                 color: #666;
-                line-height: 38px;
+                line-height: 40px;
                 user-select: none;
+                text-decoration:none;
             }
         }
     }
@@ -145,7 +152,6 @@ const Paging = styled.div`
     }
 
     @media (max-width: 1280px) {
-
         margin-top: 40px;
 
         ul li {
@@ -198,7 +204,7 @@ const Paging = styled.div`
 
 const List = ({ category }) => {
 
-    const listLimitNumber = 6;
+    const listLimitNumber = 2;
     const [page, setPage] = useState(1);
     const [totalCnt, setTotalCnt] = useState(0);
     // const [articles, setArticles] = useState([]);
