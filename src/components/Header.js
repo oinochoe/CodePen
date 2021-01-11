@@ -14,17 +14,21 @@ const Header = styled.div`
 `;
 
 const HeaderWrap = () => {
-    setTimeout(() => {
-        var iframe = document.querySelectorAll('iframe');
+    try {
+        setTimeout(() => {
+            var iframe = document.querySelectorAll('iframe');
 
-        iframe.forEach((el) => {
-            var iframeBody = el.contentWindow.document.body;
-            var script = document.createElement('script');
-            script.src = `${process.env.PUBLIC_URL}/stop_animation.js`;
+            iframe.forEach((el) => {
+                var iframeBody = el.contentWindow.document.body;
+                var script = document.createElement('script');
+                script.src = `${process.env.PUBLIC_URL}/stop_animation.js`;
 
-            iframeBody.appendChild(script);
-        });
-    }, 2000);
+                iframeBody.appendChild(script);
+            });
+        }, 2000);
+    } catch (e) {
+        console.log('error of iframe stop' + e);
+    }
     return <Header>Interactions</Header>;
 };
 
