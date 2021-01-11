@@ -265,6 +265,8 @@ const List = ({ category }) => {
                     type="number"
                     value={listLimitNumber}
                     onChange={onChange}
+                    minLength="1"
+                    maxLength="2"
                     min="1"
                     max="10"
                 />
