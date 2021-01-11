@@ -213,6 +213,7 @@ const List = ({ category }) => {
     const [listLimitNumber, setLimit] = useState(2);
     const [page, setPage] = useState(1);
     const [totalCnt, setTotalCnt] = useState(0);
+    const [categoryChange, setCategory] = useState('background');
     // const [articles, setArticles] = useState([]);
 
     const onChangePage = (pageChange) => {
@@ -221,6 +222,12 @@ const List = ({ category }) => {
 
     const onChange = (e) => {
         setLimit(e.target.value);
+    }
+
+    if(categoryChange !== category){
+        setTimeout(() => {
+            onChangePage(1);
+        }, 100);
     }
 
     const [loading, response, error] = usePromise(() => {
@@ -245,6 +252,7 @@ const List = ({ category }) => {
     const { articles } = response.data;
     setTimeout(() => {
         setTotalCnt(articles.length);
+        setCategory(category);
     }, 100);
     // console.log(articles);
     // console.log(Array.from(articles).slice(listLimitNumber * page - listLimitNumber, listLimitNumber * page))
