@@ -7,7 +7,7 @@ const ItemBlock = styled.div`
     display: block;
     text-align: center;
     width: 33.33%;
-    flex: 1 0 33.33%;
+    flex: 0 0 33.33%;
 
     iframe {
         position: relative;

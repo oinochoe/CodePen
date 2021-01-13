@@ -210,7 +210,7 @@ const Paging = styled.div`
 
 const List = ({ category }) => {
 
-    const [listLimitNumber, setLimit] = useState(3);
+    const [listLimitNumber, setLimit] = useState(6);
     const [page, setPage] = useState(1);
     const [totalCnt, setTotalCnt] = useState(0);
     const [categoryChange, setCategory] = useState('background');
