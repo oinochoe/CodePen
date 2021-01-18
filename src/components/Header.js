@@ -19,10 +19,16 @@ const HeaderWrap = () => {
             var iframe = document.querySelectorAll('iframe');
 
             iframe.forEach((el) => {
+                if (!el.contentWindow) {
+                    return;
+                }
                 var iframeBody = el.contentWindow.document.body;
                 var script = document.createElement('script');
                 script.src = `${process.env.PUBLIC_URL}/stop_animation.js`;
 
+                if(!iframeBody) {
+                    return;
+                }
                 iframeBody.appendChild(script);
             });
         }, 2000);
