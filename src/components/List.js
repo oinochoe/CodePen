@@ -213,7 +213,7 @@ const List = ({ category }) => {
     const [listLimitNumber, setLimit] = useState(6);
     const [page, setPage] = useState(1);
     const [totalCnt, setTotalCnt] = useState(0);
-    const [categoryChange, setCategory] = useState('background');
+    const [categoryChange, setCategory] = useState('component');
     // const [articles, setArticles] = useState([]);
 
     const onChangePage = (pageChange) => {

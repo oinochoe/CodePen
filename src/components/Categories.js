@@ -4,6 +4,10 @@ import { NavLink } from 'react-router-dom';
 
 const categories = [
     {
+        name: 'component',
+        text: '컴포넌트',
+    },
+    {
         name: 'background',
         text: '백그라운드효과',
     },
@@ -70,8 +74,8 @@ const Categories = () => {
                 <Category
                     key={c.name}
                     activeClassName="active"
-                    exact={c.name === 'background'}
-                    to={c.name === 'background' ? '/' : `/${c.name}`}
+                    exact={c.name === 'component'}
+                    to={c.name === 'component' ? '/' : `/${c.name}`}
                 >
                     {c.text}
                 </Category>

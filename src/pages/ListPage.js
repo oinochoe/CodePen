@@ -4,7 +4,7 @@ import Categories from '../components/Categories';
 import List from '../components/List';
 
 export const ListPage = ({ match }) => {
-    const category = match.params.category || 'background';
+    const category = match.params.category || 'component';
 
     return (
         <>
