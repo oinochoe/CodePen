@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useState } from 'react';
+﻿import React, { useState } from 'react';
 import styled from 'styled-components';
 import Item from './Item';
 import axios from 'axios';
@@ -22,7 +22,7 @@ const ListBlock = styled.div`
         margin-top: 0;
     }
     .howmany {
-        display:block; position:absolute; right:50%; top:50px; margin-right:-500px;
+        display:block; position:absolute; right:50%; top:50px; margin-right:-600px; margin-top:4px;
         input {
             padding:5px;
         }
